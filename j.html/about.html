@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb project</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <button type="button" onclick="on()"> Turn On</button>
+
+    <img id="bulb" src="assets/img/bulb-off.jpg" alt="bulb">
+
+    <button type="button" onclick="off()"> Turn Off</button>
+
+    <script>
+        function on(){
+            document.getElementById("bulb").src="assets/img/light-bulb-on.jpg";
+        }
+
+        function off()
+              {document.getElementById("bulb").src="assets/img/bulb-off.jpg" ;
+
+        }
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
